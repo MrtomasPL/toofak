@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  @apply bg-black text-white;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+#__next {
+  @apply min-h-screen flex flex-col lg:justify-start justify-between;
+}
+
+.little-scrollbar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.little-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-white/10 rounded-lg;
+}
+
+.little-scrollbar::-webkit-scrollbar-track {
+  @apply bg-transparent;
+}
+
+.link {
+  @apply underline decoration-dashed hover:opacity-75 transition-all;
+}

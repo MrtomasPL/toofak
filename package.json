@@ -1,0 +1,41 @@
+{
+  "name": "beunblurred",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start --port 3290",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@next/bundle-analyzer": "^14.2.14",
+    "@sentry/nextjs": "^8.32.0",
+    "@tolgee/format-icu": "^5.25.0",
+    "@tolgee/react": "^5.19.6",
+    "autoprefixer": "10.4.14",
+    "axios": "^1.4.0",
+    "cookie": "^0.7.0",
+    "cookie-cutter": "^0.2.0",
+    "cookies-next": "^4.3.0",
+    "country-flag-icons": "^1.5.9",
+    "exifreader": "^4.13.0",
+    "micro": "^10.0.1",
+    "mongodb": "^6.8.0",
+    "next": "^14.2.12",
+    "next-pwa": "^5.6.0",
+    "next-seo": "^6.1.0",
+    "nprogress": "^0.2.0",
+    "postcss": "^8.4.35",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-phone-number-input": "^3.3.0",
+    "react-swipeable": "^7.0.1",
+    "sharp": "^0.33.4",
+    "stripe": "^16.6.0",
+    "tailwindcss": "3.3.3",
+    "timeago.js": "^4.0.0-beta.3"
+  }
+}
